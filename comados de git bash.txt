@@ -1,0 +1,9 @@
+comandos para subir cambios
+=============================================
+$ git add .
+$ git commit -m "texto commit"
+$ git push
+
+comando para bajar cambios
+=============================================
+$ git pull
