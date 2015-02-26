@@ -1,1 +1,1 @@
-Archivo del profe.
+Hola, soy un archivo de texto con extensión .txt
