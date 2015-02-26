@@ -3,5 +3,9 @@ Hola, soy un archivo de texto con extensión .txt
 =======
 Archivo del profe.
 
+<<<<<<< HEAD
 free
 >>>>>>> a8658abc17b40c8095ae29f4b41985a0cc4ea493
+=======
+it's free
+>>>>>>> 2f211bc39d2eac1e15067910b0229311875b3f0e
