@@ -3,5 +3,11 @@ Archivo del profe. Hola, ¿que tal tu dia?
 =======
 Archivo del profe.
 
+<<<<<<< HEAD
 free
 >>>>>>> a8658abc17b40c8095ae29f4b41985a0cc4ea493
+=======
+adonay
+===========
+it's free
+>>>>>>> 566e0aa76c797a68d95baf631d9d014365568f9b
