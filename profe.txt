@@ -1,1 +1,7 @@
+<<<<<<< HEAD
 Archivo del profe. Hola, ¿que tal tu dia?
+=======
+Archivo del profe.
+
+free
+>>>>>>> a8658abc17b40c8095ae29f4b41985a0cc4ea493
