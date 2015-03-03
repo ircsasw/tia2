@@ -13,6 +13,7 @@ $rs_temas = mysql_query(
 $sql_temas,
 $Link) or die(mysql_error());
 ?>
+
  
 <html>
 <head>
@@ -40,3 +41,4 @@ $Link) or die(mysql_error());
 				}
 </body>
 </html>
+
