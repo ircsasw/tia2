@@ -39,6 +39,8 @@ $Link) or die(mysql_error());
      				echo "<td>". $row ['usuarios']."</td";
      				echo "</tr>";
 				}
+			?>
+
 </body>
 </html>
 
