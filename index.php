@@ -31,7 +31,7 @@ $Link) or die(mysql_error());
 				while ($row = mysql_fetch_array($rs_alumnos))
 				{
 					echo "<tr>";					
-					echo "<tb>". 
+					echo "<tb>"; 
 					echo "<tr>";     				
 				echo "<td>". $row ["Alumnos"]."</td";
      				echo "<td>". $row ['Comentarios']."</td";
