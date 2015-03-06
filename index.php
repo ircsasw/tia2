@@ -10,23 +10,26 @@
 <body>
 	<table border="1">
 		<tr>
-			<th>Alumnos</th>
-			<th>Comentarios</th>
-			<th>Temas</th>
-			<th>usuarios</th>
+			<th>id</th>
+			<th>id_usuario</th>
+			<th>titulo</th>
+			<th>fecha_pub</th>
+			<th>contenido</th>
 		</tr>
 			<?php
-				while ($row = mysql_fetch_array($rs_alumnos))
+				while ($row = mysql_fetch_array($rs_temas))
 				{
 					echo "<tr>";
-					echo "<tb>". 
+					echo "<tb>"; 
 					echo "<tr>";
-     				echo "<td>". $row ["Alumnos"]."</td";
-     				echo "<td>". $row ['Comentarios']."</td";
-     				echo "<td>". $row ['Temas']."</td";
-     				echo "<td>". $row ['usuarios']."</td";
+     				echo "<td>". $row ["id"]."</td";
+     				echo "<td>". $row ['id_usuario']."</td";
+     				echo "<td>". $row ['titulo']."</td";
+     				echo "<td>". $row ['fecha_pub']."</td";
+     				echo "<td>". $row ['contenido']."</td";
      				echo "</tr>";
 				}
+				?>
 </body>
 </html>
 
