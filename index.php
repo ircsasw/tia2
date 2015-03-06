@@ -42,6 +42,30 @@ $Link) or die(mysql_error());
 				}
 				?>
 
-</body>
-</html>
+	<table boder="1">
+		<tr> 
+			<td colspan="3"> titulo1</td> 
+			<td> </td>
+		</tr>
+
+		<tr>
+			<td colspan="4"> </td>
+		</tr>
+		<tr>
+			<td colespan="4"> </td>
+		</tr>
+		<tr>
+			<td> </td>
+		</tr>
+		<tr>
+			<td colespan="4"> </td>
+		</tr>
+		<tr>
+			<td colespan="4"> </td>
+		</tr>
+		<tr>
+			<td colespan="4"> </td>
+		</tr>
+	</table>
+
 
