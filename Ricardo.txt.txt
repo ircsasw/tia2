@@ -1,2 +1,6 @@
+<<<<<<< HEAD
+HOLA SOY RICARDO Y SOY PUTO.
+=======
 HOLA SOY RICARDO
 no.
+>>>>>>> c10f97aba3339f84a3326ef5d3a4cc6541ac2d68

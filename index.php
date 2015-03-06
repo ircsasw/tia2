@@ -1,8 +1,20 @@
 <?php
-
-	echo "Equipo 2";
-
+$Link = mysql_connect(
+"localhost",
+"root",
+""
+);
+mysql_select_db(
+"tia",
+$Link
+) OR DIE("Error!!");
+$sql_temas = "SELECT * FROM temas";
+$rs_temas = mysql_query(
+$sql_temas,
+$Link) or die(mysql_error());
 ?>
+
+ 
 <html>
 <head>
 	<title>Mi Blog</title>
@@ -19,6 +31,7 @@
 			<?php
 				while ($row = mysql_fetch_array($rs_temas))
 				{
+
 					echo "<tr>";
 					echo "<tb>"; 
 					echo "<tr>";
@@ -30,6 +43,7 @@
      				echo "</tr>";
 				}
 				?>
+
 </body>
 </html>
 
