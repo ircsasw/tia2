@@ -32,9 +32,7 @@ $Link) or die(mysql_error());
 				while ($row = mysql_fetch_array($rs_temas))
 				{
 
-					echo "<tr>";
-					echo "<tb>"; 
-					echo "<tr>";
+					echo "<tr>"; 
      				echo "<td>". $row ["id"]."</td";
      				echo "<td>". $row ['id_usuario']."</td";
      				echo "<td>". $row ['titulo']."</td";
