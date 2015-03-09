@@ -40,6 +40,10 @@ $Link) or die(mysql_error());
      				echo "<td>". $row ['contenido']."</td";
      				echo "</tr>";
 				}
+			?>
+</body>
+</html>
+=======
 				?>
 
 	<table boder="1">
@@ -68,4 +72,5 @@ $Link) or die(mysql_error());
 		</tr>
 	</table>
 
+>>>>>>> 82e329c5711a5a1f1b08f745eecb3ef625da570e
 
