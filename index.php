@@ -69,6 +69,5 @@ $Link) or die(mysql_error());
 			<td colspan="4"> comentario </td>
 		</tr>
 	</table>
-=======
 </body>
 </html>
