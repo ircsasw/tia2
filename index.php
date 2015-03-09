@@ -44,7 +44,7 @@ $Link) or die(mysql_error());
 
 	<table boder="1">
 		<tr> 
-			<td colspan="3"> titulo1</td> 
+			<td colspan="3"> </td> 
 			<td> </td>
 		</tr>
 
