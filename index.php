@@ -22,24 +22,55 @@ $Link) or die(mysql_error());
 <body>
 	<table border="1">
 		<tr>
-			<th>Alumnos</th>
-			<th>Comentarios</th>
-			<th>Temas</th>
-			<th>usuarios</th>
+			<th>id</th>
+			<th>id_usuario</th>
+			<th>titulo</th>
+			<th>fecha_pub</th>
+			<th>contenido</th>
 		</tr>
 			<?php
-				while ($row = mysql_fetch_array($rs_alumnos))
+				while ($row = mysql_fetch_array($rs_temas))
 				{
-					echo "<tr>";					
-					echo "<tb>"; 
-					echo "<tr>";     				
-				echo "<td>". $row ["Alumnos"]."</td";
-     				echo "<td>". $row ['Comentarios']."</td";
-     				echo "<td>". $row ['Temas']."</td";
-     				echo "<td>". $row ['usuarios']."</td";
+
+					echo "<tr>"; 
+     				echo "<td>". $row ["id"]."</td";
+     				echo "<td>". $row ['id_usuario']."</td";
+     				echo "<td>". $row ['titulo']."</td";
+     				echo "<td>". $row ['fecha_pub']."</td";
+     				echo "<td>". $row ['contenido']."</td";
      				echo "</tr>";
 				}
 			?>
 </body>
 </html>
+=======
+				?>
+
+	<table boder="1">
+		<tr> 
+			<td colspan="3"> titulo1</td> 
+			<td> </td>
+		</tr>
+
+		<tr>
+			<td colspan="4"> </td>
+		</tr>
+		<tr>
+			<td colespan="4"> </td>
+		</tr>
+		<tr>
+			<td> </td>
+		</tr>
+		<tr>
+			<td colespan="4"> </td>
+		</tr>
+		<tr>
+			<td colespan="4"> </td>
+		</tr>
+		<tr>
+			<td colespan="4"> </td>
+		</tr>
+	</table>
+
+>>>>>>> 82e329c5711a5a1f1b08f745eecb3ef625da570e
 
