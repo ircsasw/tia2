@@ -43,8 +43,6 @@ $Link) or die(mysql_error());
 			?>
 </body>
 </html>
-=======
-				?>
 
 	<table boder="1">
 		<tr> 
@@ -71,6 +69,3 @@ $Link) or die(mysql_error());
 			<td colespan="4"> </td>
 		</tr>
 	</table>
-
->>>>>>> 82e329c5711a5a1f1b08f745eecb3ef625da570e
-
