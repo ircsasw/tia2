@@ -18,10 +18,15 @@ $Link) or die(mysql_error());
 <head>
   <meta charset = "utf-8">
 
-  <title></title>
+  <title> Mi Blog</title>
 </head>
 <body>
+<<<<<<< HEAD
 	<h1> Bienvenido a mi blog  </h1>
+=======
+	<h1> Bienvenido al blog del equipo 2 </h1>
+	<a herf="login.php"> login </a>
+>>>>>>> 85675a889599c8174159a20328ba5fdf07be8ed0
 	<!--<table border="1">
 		<tr>
 			<th>id</th>
@@ -46,6 +51,10 @@ $Link) or die(mysql_error());
 
 </body>
 </html>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> db50784d5105ca61c5d031f579d4cf6bd08acbbb
 				?>
 	</table>  -->
 
@@ -78,5 +87,8 @@ $Link) or die(mysql_error());
 
 </body>
 </html>
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> db50784d5105ca61c5d031f579d4cf6bd08acbbb
