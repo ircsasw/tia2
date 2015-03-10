@@ -47,11 +47,6 @@ $Link) or die(mysql_error());
 
 </body>
 </html>
-<<<<<<< HEAD
-=======
-=======
->>>>>>> db50784d5105ca61c5d031f579d4cf6bd08acbbb
-				?>
 	</table>  -->
 
 	<table border="1">
@@ -83,8 +78,3 @@ $Link) or die(mysql_error());
 
 </body>
 </html>
-<<<<<<< HEAD
-=======
-
-
->>>>>>> db50784d5105ca61c5d031f579d4cf6bd08acbbb
