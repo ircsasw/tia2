@@ -14,12 +14,14 @@ $sql_temas,
 $Link) or die(mysql_error());
 ?>
 
- 
 <html>
 <head>
-	<title>Mi Blog</title>
+  <meta charset = "utf-8">
+
+  <title></title>
 </head>
 <body>
+	<h1> Bienvenido al blog del equipo 2 </h1>
 	<!--<table border="1">
 		<tr>
 			<th>id</th>
@@ -41,13 +43,25 @@ $Link) or die(mysql_error());
      				echo "</tr>";
 				}
 			?>
+
+</body>
+</html>
 				?>
 	</table>  -->
 
 	<table border="1">
 		<?php $row = mysql_fetch_array($rs_temas) ?>
 		<tr> 
+
 			<td colspan="3"> <?php echo $row["titulo"]; ?> </td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
+
+
+			<td colspan="3"> </td> 
+			<td> </td>
+
+			<td colspan="3"> titulo1</td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
+
+
 		</tr>
 
 		<tr>
@@ -66,6 +80,11 @@ $Link) or die(mysql_error());
 			<td colspan="4"> comentario </td>
 		</tr>
 	</table>
+
+
+
+
 </body>
 </html>
+
 
