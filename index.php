@@ -14,12 +14,14 @@ $sql_temas,
 $Link) or die(mysql_error());
 ?>
 
- 
 <html>
 <head>
-	<title>Mi Blog</title>
+  <meta charset = "utf-8">
+
+  <title></title>
 </head>
 <body>
+	<h1> Bienvenido al blog del equipo 2 </h1>
 	<!--<table border="1">
 		<tr>
 			<th>id</th>
@@ -53,10 +55,10 @@ $Link) or die(mysql_error());
 
 	<table border="1">
 		<tr> 
-<<<<<<< HEAD
+
 			<td colspan="3"> </td> 
 			<td> </td>
-=======
+
 			<td colspan="3"> titulo1</td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 
 		</tr>
