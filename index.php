@@ -43,7 +43,7 @@ $Link) or die(mysql_error());
      				echo "</tr>";
 				}
 			?>
-<<<<<<< HEAD
+
 </body>
 </html>
 				?>
@@ -75,10 +75,10 @@ $Link) or die(mysql_error());
 			<td colspan="4"> comentario </td>
 		</tr>
 	</table>
-<<<<<<< HEAD
 
 
-=======
+
+
 </body>
 </html>
 
