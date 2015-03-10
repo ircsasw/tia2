@@ -21,7 +21,7 @@ $Link) or die(mysql_error());
   <title></title>
 </head>
 <body>
-	<h1> Bienvenido al blog del equipo 2 </h1>
+	<h1> Bienvenido a mi blog  </h1>
 	<!--<table border="1">
 		<tr>
 			<th>id</th>
