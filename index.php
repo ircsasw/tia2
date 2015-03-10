@@ -50,10 +50,10 @@ $Link) or die(mysql_error());
 
 	<table border="1">
 		<tr> 
-<<<<<<< HEAD
+
 			<td colspan="3"> </td> 
 			<td> </td>
-=======
+
 			<td colspan="3"> titulo1</td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 
 		</tr>
