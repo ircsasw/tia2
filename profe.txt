@@ -8,8 +8,14 @@ Hola, soy un archivo de texto con extensión .txt
 Archivo del profe.
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+it's free
+
+hola
+=======
 free
 hilary 
+>>>>>>> 09879dd149f0deb85663b7a9d250dd6ec579f8f3
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29,4 +35,8 @@ adonay
 ===========
 it's free
 >>>>>>> 566e0aa76c797a68d95baf631d9d014365568f9b
+<<<<<<< HEAD
+>>>>>>> 107a213a0c329e548416bf1addb25869d480ae7e
+=======
 >>>>>>> c499d0367778fe3bcb935f64d5b3242097dfc215
+>>>>>>> 09879dd149f0deb85663b7a9d250dd6ec579f8f3
