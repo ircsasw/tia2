@@ -57,10 +57,10 @@ $Link) or die(mysql_error());
 		</tr>
 
 		<tr>
-			<td colspan="4"> usuario y fecha </td>
+			<td colspan="4"> <?php echo $row["id_usuario"]; ?> - <?php echo $row["fecha_pub"]; ?> </td>
 		</tr>
 		<tr>
-			<td colspan="4"> comentario </td>
+			<td colspan="4"> <?php echo $row["contenido"]; ?></td>
 		</tr>
 		<tr>
 			<td colspan="4"> <input type="submit" name="Me gusta" value="Me gusta"> </td>
