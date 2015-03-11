@@ -58,21 +58,19 @@ $Link) or die(mysql_error());
 		<?php $row = mysql_fetch_array($rs_temas) ?>
 		<tr> 
 
-<<<<<<< HEAD
-=======
+
 			<td colspan="3"> <?php echo $row["titulo"]; ?> </td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
-<<<<<<< HEAD
 
 
->>>>>>> 633e2fc528a6c59305727acd720dcd6c58f4e6b7
+
+
 			<td colspan="3"> </td> 
 			<td> </td>
 
 			<td colspan="3"> titulo1</td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 
 
-=======
->>>>>>> c1d42aa56e76f4413abf61bf77746a25dc291a8b
+
 		</tr>
 
 		<tr>
@@ -91,13 +89,10 @@ $Link) or die(mysql_error());
 			<td colspan="4"> comentario </td>
 		</tr>
 	</table>
-<<<<<<< HEAD
-
-=======
 
 
 
 
->>>>>>> 633e2fc528a6c59305727acd720dcd6c58f4e6b7
+
 </body>
 </html>
