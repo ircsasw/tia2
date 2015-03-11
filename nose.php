@@ -25,5 +25,3 @@ CREATE TABLE `comentarios` (
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
-¿Que es esto Piña?
-Deja de jugar hijo.
