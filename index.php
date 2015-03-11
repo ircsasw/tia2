@@ -21,10 +21,6 @@ $Link) or die(mysql_error());
   <title> Mi Blog</title>
 </head>
 <body>
-<<<<<<< HEAD
-=======
-	
->>>>>>> 5a5dd99dda864c7b00ffece2cda5ccff6d7d3ebc
 	<h1> Bienvenido al blog del equipo 2 </h1>
 	<a herf="login.php"> login </a>
 
