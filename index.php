@@ -22,7 +22,10 @@ $Link) or die(mysql_error());
 </head>
 <body>
 	
+<<<<<<< HEAD
+=======
 
+>>>>>>> 137d51827b8c53e1159740ffb579e0d334f7d411
 	<h1> Bienvenido al blog del equipo 2 </h1>
 	<a herf="login.php"> login </a>
 
@@ -51,8 +54,10 @@ $Link) or die(mysql_error());
 </body>
 </html>
 
-				?>
-	</table>  -->
+
+			
+ 
+	</table> 
 
 	<table border="1">
 		<?php $row = mysql_fetch_array($rs_temas) ?>
