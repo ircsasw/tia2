@@ -21,18 +21,14 @@ $Link) or die(mysql_error());
   <title> Mi Blog</title>
 </head>
 <body>
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 5a5dd99dda864c7b00ffece2cda5ccff6d7d3ebc
 	<h1> Bienvenido al blog del equipo 2 </h1>
 	<a herf="login.php"> login </a>
 
-	<!--<table border="1">
-		<tr>
-			<th>id</th>
-			<th>id_usuario</th>
-			<th>titulo</th>
-			<th>fecha_pub</th>
-			<th>contenido</th>
-		</tr>
-			<?php
+			<?php /**
 				while ($row = mysql_fetch_array($rs_temas))
 				{
 
@@ -44,13 +40,8 @@ $Link) or die(mysql_error());
      				echo "<td>". $row ['contenido']."</td";
      				echo "</tr>";
 				}
-			?>
-
-</body>
-</html>
-
-
 			
+			*/?>		
  
 	</table> 
 
@@ -58,7 +49,19 @@ $Link) or die(mysql_error());
 		<?php $row = mysql_fetch_array($rs_temas) ?>
 		<tr> 
 
+
 			<td colspan="3"> <?php echo $row["titulo"]; ?> </td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
+
+
+
+
+			<td colspan="3"> </td> 
+			<td> </td>
+
+			<td colspan="3"> titulo1</td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
+
+
+
 		</tr>
 
 		<tr>
@@ -77,6 +80,7 @@ $Link) or die(mysql_error());
 			<td colspan="4"> comentario </td>
 		</tr>
 	</table>
+
 
 
 
