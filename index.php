@@ -22,6 +22,10 @@ $Link) or die(mysql_error());
 </head>
 <body>
 	
+<<<<<<< HEAD
+=======
+
+>>>>>>> 137d51827b8c53e1159740ffb579e0d334f7d411
 	<h1> Bienvenido al blog del equipo 2 </h1>
 	<a herf="login.php"> login </a>
 
