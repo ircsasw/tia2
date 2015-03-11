@@ -49,16 +49,6 @@ $Link) or die(mysql_error());
 
 			<td colspan="3"> <?php echo $row["titulo"]; ?> </td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 
-
-
-
-			<td colspan="3"> </td> 
-			<td> </td>
-
-			<td colspan="3"> titulo1</td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
-
-
-
 		</tr>
 
 		<tr>
