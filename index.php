@@ -18,10 +18,15 @@ $Link) or die(mysql_error());
 <head>
   <meta charset = "utf-8">
 
-  <title></title>
+  <title> Mi Blog</title>
 </head>
 <body>
+<<<<<<< HEAD
+	<h1> Bienvenido a mi blog  </h1>
+=======
 	<h1> Bienvenido al blog del equipo 2 </h1>
+	<a herf="login.php"> login </a>
+>>>>>>> 85675a889599c8174159a20328ba5fdf07be8ed0
 	<!--<table border="1">
 		<tr>
 			<th>id</th>
@@ -46,6 +51,10 @@ $Link) or die(mysql_error());
 
 </body>
 </html>
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> db50784d5105ca61c5d031f579d4cf6bd08acbbb
 				?>
 	</table>  -->
 
@@ -56,6 +65,7 @@ $Link) or die(mysql_error());
 <<<<<<< HEAD
 =======
 			<td colspan="3"> <?php echo $row["titulo"]; ?> </td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
+<<<<<<< HEAD
 
 
 >>>>>>> 633e2fc528a6c59305727acd720dcd6c58f4e6b7
@@ -65,13 +75,15 @@ $Link) or die(mysql_error());
 			<td colspan="3"> titulo1</td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 
 
+=======
+>>>>>>> c1d42aa56e76f4413abf61bf77746a25dc291a8b
 		</tr>
 
 		<tr>
-			<td colspan="4"> usuario y fecha </td>
+			<td colspan="4"> <?php echo $row["id_usuario"]; ?> - <?php echo $row["fecha_pub"]; ?> </td>
 		</tr>
 		<tr>
-			<td colspan="4"> comentario </td>
+			<td colspan="4"> <?php echo $row["contenido"]; ?></td>
 		</tr>
 		<tr>
 			<td colspan="4"> <input type="submit" name="Me gusta" value="Me gusta"> </td>
@@ -93,5 +105,8 @@ $Link) or die(mysql_error());
 >>>>>>> 633e2fc528a6c59305727acd720dcd6c58f4e6b7
 </body>
 </html>
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> db50784d5105ca61c5d031f579d4cf6bd08acbbb
