@@ -21,22 +21,7 @@ $Link) or die(mysql_error());
 </head>
 <body>
 	<h1> Bienvenido al blog del equipo 2 </h1>
-	<a herf="login.php"> login </a>
-
-			<?php
-				while ($row = mysql_fetch_array($rs_temas))
-				{
-
-					echo "<tr>"; 
-     				echo "<td>". $row ["id"]."</td";
-     				echo "<td>". $row ['id_usuario']."</td";
-     				echo "<td>". $row ['titulo']."</td";
-     				echo "<td>". $row ['fecha_pub']."</td";
-     				echo "<td>". $row ['contenido']."</td";
-     				echo "</tr>";
-				}
-			
-			?>		
+	<a herf="login.php"> login </a>	
  
 	</table> 
 
