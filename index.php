@@ -21,8 +21,7 @@ $Link) or die(mysql_error());
 </head>
 <body>
 	<h1> Bienvenido al blog del equipo 2 </h1>
-	<a herf="login.php"> login </a>	
- 
+	<a herf="login.php"> login </a>	 
 	</table> 
 
 	<table border="1">
