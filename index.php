@@ -18,7 +18,6 @@ $Link) or die(mysql_error());
 <head>
   <meta charset = "utf-8">
 
-  <title> Mi Blog</title>
 </head>
 <body>
 	<h1> Bienvenido al blog del equipo 2 </h1>
