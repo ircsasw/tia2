@@ -24,7 +24,7 @@ $Link) or die(mysql_error());
 	<h1> Bienvenido al blog del equipo 2 </h1>
 	<a herf="login.php"> login </a>
 
-			<?php /**
+			<?php
 				while ($row = mysql_fetch_array($rs_temas))
 				{
 
@@ -37,7 +37,7 @@ $Link) or die(mysql_error());
      				echo "</tr>";
 				}
 			
-			*/?>		
+			?>		
  
 	</table> 
 
