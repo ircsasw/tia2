@@ -24,3 +24,4 @@ CREATE TABLE `comentarios` (
   `fecha_pub` timestamp NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP,
   PRIMARY KEY (`id`)
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
