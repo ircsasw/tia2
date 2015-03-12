@@ -43,6 +43,9 @@ $Link) or die(mysql_error());
 			<td colspan="4"> <input type="submit" name="Me gusta" value="Me gusta"> </td>
 		</tr>
 		<tr>
+			<td colspan="4"> <input type="submit" name="No me gusta" value="No me gusta"> </td>
+		</tr>
+		<tr>
 			<td colspan="3"> <?php echo $row["id_usuario"]; ?> </td> <td> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 		</tr>
 		<tr>
