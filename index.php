@@ -28,7 +28,7 @@ $Link) or die(mysql_error());
 	
 	<a herf="login.php"> login </a>
 
-			<?php /**
+			<?php
 				while ($row = mysql_fetch_array($rs_temas))
 				{
 
@@ -41,7 +41,7 @@ $Link) or die(mysql_error());
      				echo "</tr>";
 				}
 			
-			*/?>		
+			?>		
  
 	</table> 
 
