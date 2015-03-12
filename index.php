@@ -23,7 +23,7 @@ $Link) or die(mysql_error());
 <body>
 	
 
-	<h1> Bienvenido al blog del equipo 2 </h1>
+	<h1> Bienvenido al blog del equipo  "2" </h1>
 	<a herf="login.php"> login </a>
 
 	<!--<table border="1">
