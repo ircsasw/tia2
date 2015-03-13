@@ -21,15 +21,15 @@ $Link) or die(mysql_error());
 </head>
 <body>
 	<h1> Bienvenido al blog del equipo 2 </h1>
-	<a herf="login.php"> login </a>	 
-	</table> 
+	<a herf="login.php"> login </a>
+	</table>
 
 	<table border="1">
 		<?php $row = mysql_fetch_array($rs_temas) ?>
-		<tr> 
+		<tr>
 
 
-			<td colspan="3"> <?php echo $row["titulo"]; ?> </td> <td> <input type="submit" name="comentar" value="comentar"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
+			<td colspan="3"> <?php echo $row["titulo"]; ?> </td> <td> <input type="submit" name="comentar" value="comentar" onclick="window.location.href='comentar.php?id=<?php echo $row['id']; ?>"> <input type="submit" name="editar" value="editar"> <input type="submit" name="borrar" value="borrar"> </td>
 
 		</tr>
 
